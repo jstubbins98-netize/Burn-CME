@@ -31,23 +31,23 @@ Burn-CME is a cross-platform utility for burning data to CDs and DVDs, as well a
 
 ## Table of Contents
 
-1. [Features](#features)
-   - [Drive Detection](#drive-detection)
-   - [File Queue Management](#file-queue-management)
-   - [ISO Creation](#iso-creation)
-   - [Disc Burning](#disc-burning)
-   - [Data Extraction](#data-extraction)
-   - [Disc Information](#disc-information)
-   - [Disc Erasing](#disc-erasing)
-   - [Cross-Platform Support](#cross-platform-support)
-   - [Apple SuperDrive Support](#apple-superdrive-support)
-2. [System Requirements](#system-requirements)
-3. [Installation](#installation)
-4. [Quick Start](#quick-start)
-5. [Command-Line Interface (CLI)](#command-line-interface-cli)
-6. [Graphical User Interface (GUI)](#graphical-user-interface-gui)
-7. [Troubleshooting](#troubleshooting)
-8. [Technical Reference](#technical-reference)
+1. Features
+   - Drive Detection
+   - File Queue Management
+   - ISO Creation
+   - Disc Burning
+   - Data Extraction
+   - Disc Information
+   - Disc Erasing
+   - Cross-Platform Support
+   - Apple SuperDrive Support
+2. System Requirements
+3. Installation
+4. Quick Start
+5. Command-Line Interface (CLI)
+6. Graphical User Interface (GUI)
+7. Troubleshooting
+8. Technical Reference
 
 ---
 
