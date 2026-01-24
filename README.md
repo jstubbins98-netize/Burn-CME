@@ -24,30 +24,32 @@ Burn-CME is designed for legitimate purposes only, including:
 By using this software, you agree to use it only for lawful purposes and accept full responsibility for your actions. The developers of Burn-CME do not condone, support, or encourage any form of copyright infringement.
 
 ---
-## Overview
+
 Burn-CME is a cross-platform utility for burning data to CDs and DVDs, as well as extracting data from optical media. It provides both a command-line interface (CLI) for power users and a graphical user interface (GUI) for ease of use.
 
 ---
 
 ## Table of Contents
 
-1. Features
-   - Drive Detection
-   - File Queue Management
-   - ISO Creation
-   - Disc Burning
-   - Data Extraction
-   - Disc Information
-   - Disc Erasing
-   - Cross-Platform Support
-   - Apple SuperDrive Support
-2. System Requirements
-3. Installation
-4. Quick Start
-5. Command-Line Interface (CLI)
-6. Graphical User Interface (GUI)
-7. Troubleshooting
-8. Technical Reference
+1. [Features](#features)
+   - [Drive Detection](#drive-detection)
+   - [File Queue Management](#file-queue-management)
+   - [ISO Creation](#iso-creation)
+   - [Disc Burning](#disc-burning)
+   - [Data Extraction](#data-extraction)
+   - [Video DVD Creation](#video-dvd-creation)
+   - [DVD Video Extraction](#dvd-video-extraction)
+   - [Disc Information](#disc-information)
+   - [Disc Erasing](#disc-erasing)
+   - [Cross-Platform Support](#cross-platform-support)
+   - [Apple SuperDrive Support](#apple-superdrive-support)
+2. [System Requirements](#system-requirements)
+3. [Installation](#installation)
+4. [Quick Start](#quick-start)
+5. [Command-Line Interface (CLI)](#command-line-interface-cli)
+6. [Graphical User Interface (GUI)](#graphical-user-interface-gui)
+7. [Troubleshooting](#troubleshooting)
+8. [Technical Reference](#technical-reference)
 
 ---
 
@@ -142,6 +144,53 @@ Extract data from CDs and DVDs to your computer.
 - **File Copy**: Copies files directly to a folder (coming soon)
 
 **macOS Note:** Uses `hdiutil makehybrid` for proper ISO creation, ensuring extracted images work on all platforms.
+
+---
+
+### Video DVD Creation
+
+Convert MP4 and other video files to Video DVD format for playback on standard DVD players.
+
+- Convert MP4, AVI, MKV, MOV, WMV, FLV, WEBM files to DVD-Video format
+- Creates proper MPEG-2 video with AC3/MPEG audio
+- Generates VIDEO_TS folder structure with VOB files
+- Supports multiple video files on a single DVD
+- Option to burn immediately after creation
+- Uses FFmpeg for high-quality video conversion
+
+**Requirements:**
+- FFmpeg (for video conversion)
+- dvdauthor (for creating DVD structure - optional but recommended)
+
+**Installation:**
+- Linux: `sudo apt install ffmpeg dvdauthor`
+- macOS: `brew install ffmpeg dvdauthor`
+
+**Supported Input Formats:**
+- MP4, AVI, MKV, MOV, WMV, FLV, WEBM, M4V, MPEG, MPG
+
+---
+
+### DVD Video Extraction
+
+Extract video content from Video DVDs and convert to MP4 format.
+
+- Extract video from physical DVD discs
+- Extract from VIDEO_TS folders
+- Extract from DVD ISO images
+- High-quality H.264/AAC output
+- Fast conversion with FFmpeg
+- Preserves video quality with adjustable settings
+
+**Extraction Sources:**
+- Physical DVD drive
+- VIDEO_TS folder on disk
+- Mounted ISO images
+
+**Output:**
+- MP4 format with H.264 video and AAC audio
+- Optimized for web streaming (faststart flag)
+- Configurable output quality
 
 ---
 
@@ -634,7 +683,7 @@ Burn-CME/
 
 ## License
 
-Burn-CME is Liecnced under General Public License version 3 see LICENSE file for details.
+Burn-CME is open source software. Feel free to use, modify, and distribute.
 
 ---
 
