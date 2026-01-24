@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Burn-CME
+Comment=CD/DVD Burning and Extraction Utility
+Exec=burn-cme-gui
+Icon=burn-cme
+Terminal=false
+Type=Application
+Categories=Utility;DiscBurning;
+Keywords=cd;dvd;burn;iso;disc;optical;
+StartupNotify=true
